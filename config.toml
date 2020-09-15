@@ -4,6 +4,12 @@ title = "Fidelity Bookkeeping Solutions"
 copyright = "Copyright &copy; {year} Fidelity Bookkeeping Solutions."
 permalinks = "/:slug/"
 
+[params.copyright]
+prefix = ""
+holder = "Fidelity Bookkeeping Solutions"
+startYear = "2020"
+suffix = ""
+
 preserveTaxonomyNames = false
 
 canonifyURLs = true
