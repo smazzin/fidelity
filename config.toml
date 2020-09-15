@@ -52,11 +52,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [blackfriday]
 hrefTargetBlank = true
 
-[[menu.main]]
-name = "Home"
-weight = 1
-identifier = "Home"
-url = "/"
+# [[menu.main]]
+# name = "Home"
+# weight = 1
+# identifier = "Home"
+# url = "/"
 
 [[menu.main]]
 name = "Services"
