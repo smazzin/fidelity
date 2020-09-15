@@ -5,40 +5,40 @@
         "button": "Get More Info",
         "image": "/images/fidelity-bookkeeping-solutions.jpg"
     },
-    "topsection": {
-        "title": "Stay <span class=\"blue\">Cool<\/span> All Summer and <span class=\"red\">Warm<\/span>  All Winter",
-        "description": "Furnace not working? We can help. Schedule a service repair today! <br\/> We service Hillsboro, Beaverton, and the surrounding greater Portland Oregon Metro Area.",
-        "button": "Schedule Appointment Online",
-        "url": ""
-    },
     "services": {
         "title": "Our Services"
     },
     "servicelist": {
         "items": [
             {
-                "title": "Furnace Repair & Maintenance",
-                "description": "Rely on our furnace maintenance services to keep you warm all winter.",
-                "image": "/images/fix-your-furnace-without-breaking-the-bank.jpg",
-                "url": "/furnace-repair-and-maintenance"
+                "title": "Full-Charge Bookkeeping",
+                "description": "We will handle all or any part of the data input from invoicing customers, entering and processing bills, payments and payroll to providing you a complete set of financial statements.",
+                "image": "/images/full-charge-bookkeeping-sm.jpg",
+                "url": "/full-charge-bookkeeping"
             },
             {
-                "title": "AC Repair & Maintenance",
-                "description": "Keep the cool air flowing in your home when it gets hot out.",
-                "image": "/images/ac-repair-maintenance.jpg",
-                "url": "/ac-repair-and-maintenance"
+                "title": "Auditing Assistance ",
+                "description": "Audits can be time consuming and overwhelming. Let us alleviate the stress by helping you and your staff prepare for single point or annual audits.",
+                "image": "/images/auditing-assistance-sm.jpg",
+                "url": "/auditing-assistance"
             },
             {
-                "title": "Heat Pump Tune-Up",
-                "description": "Add years of operation to your heat pump unit with regular tune-ups.",
-                "image": "/images/electric-fan-coil-tune-up.jpg",
-                "url": "/heat-pump-tune-up"
+                "title": "Accounting & Analytics",
+                "description": "We can provide you with an analysis of your financial statements or prepare you a forward looking detailed proforma, helping you to make those important business decisions to further grow your business.",
+                "image": "/images/accounting-analytics-sm.jpg",
+                "url": "/accounting-analytics"
             },
             {
-                "title": "Ductless/Mini-Split Installations",
-                "description": "Install an energy-efficient HVAC unit in your home.",
-                "image": "/images/air-conditioner.jpg",
-                "url": "/ductless-mini-split-installations"
+                "title": "Policy & Procedure Development",
+                "description": "Whether you need a financial manual for your bookkeeper, an employee handbook, or a complete set of operational and financial manuals, we can provide you with a customized policy and procedure manual tailored to your needs and processes.",
+                "image": "/images/policy-procedure-development-sm.jpg",
+                "url": "/policy-procedure-development"
+            },
+            {
+                "title": "Consulting Services",
+                "description": "We offer consulting services to meet your bookkeeping and accounting needs on a long or short term basis.",
+                "image": "/images/consulting-services-sm.jpg",
+                "url": "/consulting-services"
             }
         ]
     },
@@ -48,12 +48,5 @@
         "button": "Get More Info",
         "url": "",
         "image": "/images/who-are-we.jpg"
-    },
-    "section1": {
-        "title": "GET THE HVAC SERVICES YOU NEED",
-        "description": "If you’re looking for HVAC contractors you can trust in the Beaverton, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
-        "button": "Call Us Today",
-        "url": "",
-        "image": "/images/elevate-van-sm.jpg"
     }
 }
