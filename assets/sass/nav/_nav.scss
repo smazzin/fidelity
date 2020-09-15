@@ -3,7 +3,7 @@
 }
 .navbar {
   align-items: center;
-  background: $dark;
+  background: $white;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: row;
@@ -97,7 +97,7 @@
   }
   
   .menu-item a {
-    color: $green;
+    color: $black;
     font-size: 1rem;
     text-decoration: none;
     display: flex;
@@ -112,7 +112,7 @@
       height: 2px;
       left: 50%;
       position: absolute;
-      background: $green;
+      background: $blue;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
     }
@@ -134,14 +134,14 @@
 }
 
 .sub-nav {
-    border-top: 1px solid $green;
+    border-top: 1px solid $blue;
     display: none;
     position: absolute;
     background-color: $white;
     padding: 5px 5px;
     list-style: none; 
     width: auto;   
-    background: $dark;
+    background: $black;
     @media screen and (max-width: 768px) {
       position: relative;
       width: 100%;
