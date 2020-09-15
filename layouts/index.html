@@ -1,0 +1,181 @@
+{{ define "main" }}
+
+<section class="banner__slider">
+    <div class="slider stick-dots">
+        {{ range .Site.Data.home }}
+        <div class="slide">
+            <div class="slide__img">
+                <img src="" alt="{{ .title }}"
+                    data-lazy="{{ .image }}"
+                    class="full-image animated" data-animation-in="zoomInImage" />
+            </div>
+            <div class="slide__content slide__content__left">
+                <div class="slide__content--headings text-left">
+                    {{/*  <p class="animated top-title" data-animation-in="fadeInUp" data-delay-in="0.3">
+                        {{ .title }}
+                    </p>  */}}
+                    <h1 class="animated title" data-animation-in="fadeInUp">
+                        {{ .title }}
+                    </h1>
+                    <a href="{{.url | relURL }}" class="btn-light button-custom animated" data-animation-in="fadeInUp">
+                        {{ .button }}
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle"
+            fill="none" stroke="currentColor">
+            <circle r="20" cy="22" cx="22" id="test">
+        </symbol>
+    </svg>
+</section>
+<section class="clients_section container-xs">
+    <h2>Our Clients</h2>
+    <div class="clients">
+        {{ range .Site.Data.clients}}
+        <div class="image">
+            <img src="{{.image}}" alt="{{ .title }}" height="150" width="150">
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<script>
+    /*
+    ** With Slick Slider Plugin : https://github.com/marvinhuebner/slick-animation
+    ** And Slick Animation Plugin : https://github.com/marvinhuebner/slick-animation
+    */
+
+    // Init slick slider + animation
+    $('.slider').slick({
+        autoplay: true,
+        speed: 800,
+        lazyLoad: 'progressive',
+        arrows: true,
+        dots: false,
+        prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+        nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+    }).slickAnimation();
+
+
+
+    $('.slick-nav').on('click touch', function (e) {
+
+        e.preventDefault();
+
+        var arrow = $(this);
+
+        if (!arrow.hasClass('animate')) {
+            arrow.addClass('animate');
+            setTimeout(() => {
+                arrow.removeClass('animate');
+            }, 1600);
+        }
+
+    });
+</script>
+
+<script>
+    $('.clients').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        centerPadding: '20px',
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }
+        ]
+    });
+</script>
+
+
+{{/*  <div class="main-carousel">
+    {{ range .Site.Data.home }}
+<div id="slide-{{.id}}" class="carousel-cell og" data-id="{{.id}}"
+    style="background:url('{{.image}}') no-repeat center">
+    <div class="bg"></div>
+    <div class="text">
+        <h1>{{ .title }}</h1>
+        <p><a class="btn btn-white" href="">{{ .button }}</a></p>
+    </div>
+</div>
+{{ end }}
+</div>
+
+<script>
+    // individual slide animations
+        var slides = function slides(i) {
+            // var _from = '#slide-1';
+            var _to = '#slide-' + i;
+            var bg = '#slide-' + i + ' .bg';
+            var title = '#slide-' + i + ' h1';
+            var text = '#slide-' + i + ' p';
+
+            TweenLite.from(bg, 1, { scale: 1.25 });
+            TweenLite.from(title, 1, { y: '105px', autoAlpha: 0 });
+            TweenLite.from(text, 1, { delay: .5, y: '105px', autoAlpha: 0 });
+        };
+
+        // setup for the flickity slider
+        var slideFlickity = function slideFlickity() {
+            // flickity init	
+            var slideList = $('.main-carousel').flickity({
+                cellAlign: 'center',
+                wrapAround: true,
+                pageDots: false,
+                autoPlay: true,
+                adaptiveHeight: true,
+                contain: true
+            });
+
+            slideClick(slideList);
+        };
+
+        var slideClick = function slideClick(slideList) {
+            slideList.data('flickity').on('select', function () {
+                var index = this.selectedIndex + 1;
+                slides(index);
+            });
+        };
+
+        // load flickity first
+        slideFlickity();
+
+        // intro animation second
+        TweenLite.from('#slide-1 .bg', 1, { autoAlpha: 0 });
+        TweenLite.from('#slide-1 h1', 1.5, { autoAlpha: 0, y: '-105px' });
+        TweenLite.from('#slide-1 p', 1.5, { autoAlpha: 0, y: '105px' });
+        TweenLite.from('.previous', .5, { x: '-150px' });
+        TweenLite.from('.next', .5, { x: '150px' });
+        TweenLite.from('.flickity-page-dots', .5, { y: '105%' });
+</script>  */}}
+
+
+{{ end }}
