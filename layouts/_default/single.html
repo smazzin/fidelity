@@ -1,7 +1,5 @@
 {{ define "main" }}
-    {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
-    {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
-    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.herotitle "text" .Params.herotext) }}
+    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.herotitle "text" .Params.herotext "buttonText" $.Site.Data.contact.buttonblurb "contactUrl" $.Site.Data.contact.contactUrl) }}
     <div class="services">
         <div class="grid grid--container">
             <div class="row">

@@ -6,3 +6,5 @@ layout: contact
 ---
 
 # Contact Us
+
+Please get in touch by phone or by filling in the contact form below. We’d love to hear from you and we’ll get back to you as soon as we can.
