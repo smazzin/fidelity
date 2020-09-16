@@ -1,11 +1,7 @@
 {{ define "main" }}
-{{ $scheduleurl := .Site.Data.contact.scheduleurl }}
-{{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
-{{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
-<div class="container-sm">
+<div class="grid grid--container">
     {{ .Content  | safeHTML }}
-    <div class="col col--sm-12">
-        
+    <div class="col col--sm-8">
         <form id="contact-form" action="https://submit-form.com/2qZl3r5AK72Or_qAtFbAb" target="_self">
             <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value=""
                 required>
@@ -14,9 +10,8 @@
             <input type="hidden" name="_email.subject" value="Contact from girewards.com">
             
             <div class="center" style="width: 50%;">
-                <input class="btn btn-white" type="submit" value="Send Message">
+                <input class="btn btn-red" type="submit" value="Send Message">
             </div>
-            
         </form>
     </div>
 </div>
