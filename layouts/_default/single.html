@@ -1,8 +1,14 @@
 {{ define "main" }}
     {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
     {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
-    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle) }}
-    <div class="container-sm">
-        {{ .Content  | safeHTML }}
+    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.herotitle "text" .Params.herotext) }}
+    <div class="services">
+        <div class="grid grid--container">
+            <div class="row">
+                <div class="col col--sm-9">
+                    {{ .Content  | safeHTML }}
+                </div>
+            </div>
+        </div>
     </div>
 {{ end }}
