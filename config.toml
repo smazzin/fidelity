@@ -94,7 +94,7 @@ url = "policy-procedure-development"
 
 [[menu.main]]
 name = "Consulting Services"
-weight = 7
+weight = 8
 parent = "Services"
 identifier = "Consulting Services"
 url = "consulting-services"
