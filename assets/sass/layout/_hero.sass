@@ -9,14 +9,8 @@
     background-size: cover
     background-position: 50%
     padding-top: calc(15.16667vw + 46.66667px)
-    padding-bottom: calc(15.2233vw + 28.64078px)
-    max-height: 84vh
-    svg
-        position: absolute
-        z-index: 2
-        left: 0
-        bottom: 0
-        width: 100%
+    padding-bottom: calc(21.2233vw + 28.64078px)
+    max-height: 80vh
 
 .top-hero-content
     position: relative
@@ -24,14 +18,15 @@
     max-width: $container
     margin: 0 auto
     text-align: center
+    p
+        color: $white
     h1,h2
         color: $white 
-        font-size: 3.25rem 
+        font-size: 3.85rem 
         margin-top: 1.5em
         @media ( max-width: 900px  )
             margin-top: 4.5em
         font-weight: bolder
-        //text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 
 .middle-hero
     position: relative
@@ -43,28 +38,31 @@
     background-repeat: no-repeat
     background-size: cover
     background-position: 50%
-    padding-top: calc(15.16667vw + 46.66667px)
-    padding-bottom: calc(23.2233vw + 28.64078px)
-    max-height: 84vh
-    svg
-        position: absolute
-        z-index: 2
-        left: 0
-        bottom: 0
-        width: 100%
+    padding-top: calc(16.16667vw + 30.66667px)
+    padding-bottom: calc(15.2233vw + 28.64078px)
+    max-height: 70vh
 
 .middle-hero-content
     position: relative
     z-index: 3
-    max-width: $container
-    margin: 0 auto
     text-align: center
     @media (min-width: 900px)
         text-align: left
     h2
-        color: $white
+        color: $black
         font-weight: bolder
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+.partial-border
+  position: relative
+  display: inline-block
+
+.partial-border:before 
+  content: ''
+  border-bottom: .15em solid $blue
+  position: absolute
+  width: 40%
+  left: 0
+  bottom: 0
 
 .page-hero
     position: relative
