@@ -6,7 +6,13 @@
   background: $white;
   display: flex;
   flex-direction: row;
-  padding: 10px 50px;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 1rem .5rem 0;
+
 }
 
 .push-left {
