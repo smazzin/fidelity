@@ -1,5 +1,5 @@
 .logo {
-  max-width: 300px;
+  max-width: 200px;
 }
 .navbar {
   align-items: center;
@@ -30,7 +30,7 @@
   }
   
   &-line {
-    background: $green;
+    background: $blue;
     height: 3px;
     position: absolute;
     left: 0;
@@ -38,7 +38,7 @@
     width: 100%;
     
     .hamburger:hover & {
-      background: $green;
+      background: $blue;
     }
     
     &-top {
@@ -141,7 +141,7 @@
     padding: 5px 5px;
     list-style: none; 
     width: auto;   
-    background: $black;
+    background: $white;
     @media screen and (max-width: 768px) {
       position: relative;
       width: 100%;
@@ -156,14 +156,14 @@
  .nav__link {
    &:hover + .sub-nav {
         display:block;
-        z-index: 1;
+        z-index: 999;
  }
 }
 
 .sub-nav {
   &:hover {
     display:block;
-    z-index: 1;
+    z-index: 100000000000;
   }
 }
 
