@@ -101,12 +101,12 @@ url = "consulting-services"
 
 [[menu.main]]
 name = "About Us"
-weight = 3
+weight = 1
 identifier = "About Us"
 url = "about-us"
 
-[[menu.main]]
-name = "Contact us"
-weight = 4
-identifier = "Contact Us"
-url = "contact-us"
+# [[menu.main]]
+# name = "Contact us"
+# weight = 4
+# identifier = "Contact Us"
+# url = "contact-us"
