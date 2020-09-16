@@ -16,10 +16,41 @@
 <section>
     <div class="middle-hero" style="background-image: url(' {{ .Site.Data.home.middlehero.image | relURL }} ') ;">
         <div class="overlay-light"></div>
-        <div class="middle-hero-content">
-            <h2>{{ .Site.Data.home.middlehero.title }}</h2>
-            <a class="btn btn-red"
-                href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.middlehero.button }}</a>
+        <div class="grid grid--container">
+            <div class="col col--sm-6">
+                <div class="row row--sm-center">
+                    <div class="middle-hero-content">
+                        <h2 class="partial-border">{{ .Site.Data.home.middlehero.title }}</h2>
+                        <p>{{ .Site.Data.home.middlehero.text }}</p>
+                        <a class="btn btn-red" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.middlehero.button }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="services">
+        <div class="grid grid--container">
+            <div class="row">
+                <div class="col col--sm-12">
+                    <h2 class="partial-border">{{ .Site.Data.home.services.title }}</h2>
+                </div>
+            </div>
+            <div class="row">
+                {{ range .Site.Data.home.servicelist.items }}
+                <div class="col col--sm col--sm-flex">
+                        <div class="card">
+                            <img class="car-img" src="{{.image | relURL}}" alt="{{.title}}">
+                            <h4 class="title">
+                                <a href="{{.url | relURL}}">{{ .title }}</a>
+                            </h4>
+                            <p class="description">{{ .description }}</p>
+                        </div>
+                    
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>
