@@ -5,7 +5,12 @@
     font-family: $base-font-family
     line-height: $base-line-height
     // font-size: $base-font-size
+// https://css-tricks.com/snippets/css/fluid-typography/
+body
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))
 
+body 
+  line-height: 1.2
 
 a 
   font-family: $base-font-family
@@ -22,13 +27,13 @@ h1, h2, h3, h4, h5, h6
 
 
 h1 
-  font-size: 3.85rem
+  // font-size: 3.85rem
   font-weight: 700
   font-weight: bolder
 
 
 h2 
-  font-size: 3.85rem
+  // font-size: 3.85rem
   font-weight: bolder
 
 
