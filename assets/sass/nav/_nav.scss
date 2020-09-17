@@ -164,7 +164,7 @@
       position: relative;
       width: 100%;
       //display: none;
-      background-color: lighten(#ccc, 15%);
+      background-color: $grey;
       box-sizing: border-box;
       display: block;
       z-index: 1;
@@ -190,4 +190,12 @@
   display: flex;
   align-self: center;
   margin-left: .5em;
+}
+
+@media (max-width: 900px) {
+.contact-button-url {
+  display: block;
+  margin: 0 auto;
+  padding: 1em 0
+}
 }
