@@ -3,12 +3,15 @@
 <section>
     <div class="top-hero" style="background-image: url(' {{ .Site.Data.home.tophero.image | relURL }} ') ;">
         <div class="overlay"></div>
-        <div class="top-hero-content">
-            <div class="container-sm">
-                <h1>{{ .Site.Data.home.tophero.title }}</h1>
-                <p>{{ .Site.Data.home.tophero.alttitle }}</p>
-                <a class="btn btn-red"
-                    href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.tophero.button }}</a>
+        <div class="grid grid--container">
+            <div class="row">
+                <div class="col col--sm">
+                    <div class="top-hero-content">
+                        <h1>{{ .Site.Data.home.tophero.title }}</h1>
+                        <p>{{ .Site.Data.home.tophero.alttitle }}</p>
+                        <a class="btn btn-red" href="{{ .Site.Data.contact.contactUrl }}">{{ .Site.Data.home.tophero.button }}</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -17,12 +20,12 @@
     <div class="middle-hero" style="background-image: url(' {{ .Site.Data.home.middlehero.image | relURL }} ') ;">
         <div class="overlay-light"></div>
         <div class="grid grid--container">
-            <div class="col col--sm-6">
+            <div class="col col--lg-6 col--sm-12">
                 <div class="row row--sm-center">
                     <div class="middle-hero-content">
                         <h2 class="partial-border">{{ .Site.Data.home.middlehero.title }}</h2>
                         <p>{{ .Site.Data.home.middlehero.text }}</p>
-                        <a class="btn btn-red" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.middlehero.button }}</a>
+                        <a class="btn btn-red" href="{{ .Site.Data.contact.contactUrl }}">{{ .Site.Data.home.middlehero.button }}</a>
                     </div>
                 </div>
             </div>
@@ -39,15 +42,18 @@
             </div>
             <div class="row">
                 {{ range .Site.Data.home.servicelist.items }}
-                <div class="col col--sm col--sm-flex">
+                <div class="col col--lg col--md-6 col--sm-flex">
+                    <a href="{{.url | relURL}}">
                         <div class="card">
-                            <img class="car-img" src="{{.image | relURL}}" alt="{{.title}}">
-                            <h4 class="title">
-                                <a href="{{.url | relURL}}">{{ .title }}</a>
-                            </h4>
-                            <p class="description">{{ .description }}</p>
+                            <img class="card-img" src="{{.image | relURL}}" alt="{{.title}}">
+                            <div class="card-body">
+                                <h4 class="title">
+                                    {{ .title }}
+                                </h4>
+                                <p class="description">{{ .description }}</p>
+                            </div>
                         </div>
-                    
+                    </a>
                 </div>
                 {{ end }}
             </div>
