@@ -8,15 +8,14 @@ $cubic: cubic-bezier(.64,.09,.08,1)
 
 form 
   padding: 1em
-  //border-radius: 5px
-//   color: $text-color
+  background: $grey
 
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder 
   font: inherit
   transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out
-  color: $white
+  color: $black
 
 
 input,
@@ -25,25 +24,20 @@ textarea
   font-size: 1.25rem
   margin: 1em 0
   width: 100%
-  //display: block
-  border: 1px solid white
+  border: 1px solid $black
+  border-radius: 3px
   padding: 1.1em
-  border-bottom: solid 1px $blue
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $blue 1%)
-  color: white
-  background-position: -765px 0
+  background: $white
+  color: $black
   background-size: $width 100%
   background-repeat: no-repeat
-  transition: background 0.3s $cubic
   resize: none
   overflow: hidden
   &:focus::-webkit-input-placeholder 
-    color: $blue
+    color: $black
   
   &:focus,
   &:valid 
-    box-shadow: none
-    outline: none
     background-position: 0 0
     &::-webkit-input-placeholder 
       font-size: 1.25rem
@@ -51,11 +45,8 @@ textarea
       visibility: visible !important
       opacity: 1
     
-  
-
-
 input 
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $blue 1%)
+  background: $white
   background-position: -765px 0
   background-repeat: no-repeat
   transition: border-bottom 0.3s ease, background 0.3s ease
@@ -76,34 +67,6 @@ input
       transform: translateY(-20px)
       visibility: visible !important
       opacity: 1
-    
-    // &:focus::-webkit-input-placeholder 
-    //   color: $blue
-    // 
-    // &:focus:not(:valid)::-webkit-input-placeholder 
-    //   color: $invalid
-    // 
-  
-//   &:focus 
-//     background-position: 0 0
-//     &:not(:valid):not([value=""]) 
-//       border-bottom: solid 1px $invalid
-//       background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $invalid 4%)
-//     
-//   
-//   &:not(:focus):not(:valid):not([value=""]) 
-//     // &::-webkit-input-placeholder 
-//     //   color: $invalid
-//     // 
-//     border-bottom: solid 1px $invalid
-//     background-position: 0 0 
-//     background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $invalid 4%)
-//     &~span.validation-text 
-//       visibility: visible
-//       color: $invalid
-//     
-//   
-
 
 //Hide google recaptcha
   .grecaptcha-badge 
