@@ -8,4 +8,4 @@ herotext: Together we can explore your financial performance and create a foreca
 
 ## Accounting & Analytics Services
 
-As the language of business, accounting is the measurement, processing and communication of a business’ financial information. We can provide you with an analysis of your financial statements or prepare you a forward looking detailed proforma, helping you to make those important business decisions to further grow your business. 
+As the language of business, accounting is the measurement, processing and communication of a business’ financial information. We can provide you with an analysis of your financial statements or prepare you a forward looking detailed proforma, helping you to make those important business decisions to grow your business further.

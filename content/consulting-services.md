@@ -3,9 +3,9 @@ title: Consulting Services | Fidelity Bookkeeping Solutions | (541) 375-0954
 description: description here.
 image: /images/consulting-services.jpg
 herotitle: Consulting Services
-herotext: We offer consulting services to meet your bookkeeping and accounting needs on a long or short term basis.
+herotext: Expert advice to help you optimize your financial performance.
 ---
 
 ## Consulting Services
 
-We offer consulting services to meet your bookkeeping and accounting needs on a long or short term basis. We can perform all bookkeeping and accounting duties for your business, so you can focus on the operations and growth or we can provide temporary assistance, providing you the time to find the right person for the job.
+Our main goal is to help people achieve optimal financial performance. Even if they have struggled with developing sound accounting practices. We use unique methods to analyze your business’ financial health, align your procedures and processes, provide proper support, tools and resources to help you finally overcome the challenges, set- backs, and struggles that have kept these results out of your reach.
