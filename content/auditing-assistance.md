@@ -1,6 +1,6 @@
 ---
 title: Auditing Assistance | Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Let Fidelity Bookkeeping Solutions alleviate the stress by helping you and your staff prepare for single point or annual audits.
 image: /images/auditing-assistance.jpg
 herotitle: Auditing Assistance
 herotext: Audits can be time consuming and overwhelming. Let us alleviate the stress by helping you and your staff prepare for single point or annual audits.

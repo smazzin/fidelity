@@ -1,6 +1,6 @@
 ---
 title: About Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Fidelity Bookkeeping Solutions, LLC was created to provide a better accounting solution that meet the needs of business owners.
 image: /images/about-us.jpg
 herotitle: About Fidelity Bookkeeping
 herotext: Our team is dedicated to helping you and your business succeed.

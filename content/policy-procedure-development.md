@@ -1,6 +1,6 @@
 ---
 title: Policy and Procedure Development | Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Fidelity Bookkeeping Solutions can provide you with a customized policy and procedure manual tailored to your needs and processes.
 image: /images/policy-procedure-development.jpg
 herotitle: Policy and Procedure Development
 herotext: We can provide you with a customized policy and procedure manual tailored to your needs and processes.

@@ -1,6 +1,6 @@
 ---
 title: Accounting & Analytics | Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Fidelity Bookkeeping Solutions can help you explore your financial performance and create a forecast, allowing you to move forward and optimize operations.
 image: /images/accounting-analytics.jpg
 herotitle: Accounting & Analytics
 herotext: Together we can explore your financial performance and create a forecast, allowing you to move forward and optimize operations.

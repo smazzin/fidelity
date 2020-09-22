@@ -1,6 +1,6 @@
 ---
 title: Consulting Services | Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Expert advice to help you optimize your financial performance.
 image: /images/consulting-services.jpg
 herotitle: Consulting Services
 herotext: Expert advice to help you optimize your financial performance.

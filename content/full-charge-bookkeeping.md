@@ -1,6 +1,6 @@
 ---
 title: Full-Charge Bookkeeping | Fidelity Bookkeeping Solutions | (541) 375-0954
-description: description here.
+description: Our team is dedicated to helping you and your business succeed. From invoicing customers, entering and processing bills, payments and payroll to providing you a complete set of financial statements.
 image: /images/full-charge-bookkeeping.jpg
 herotitle: Full-Charge Bookkeeping
 herotext: Our team is dedicated to helping you and your business succeed. From invoicing customers, entering and processing bills, payments and payroll to providing you a complete set of financial statements.
