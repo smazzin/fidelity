@@ -72,11 +72,11 @@ identifier = "Full-Charge Bookkeeping"
 url = "full-charge-bookkeeping"
 
 [[menu.main]]
-name = "Auditing Assistance"
+name = "Audit Assistance"
 weight = 6
 parent = "Services"
-identifier = "Auditing Assistance"
-url = "auditing-assistance"
+identifier = "Audit Assistance"
+url = "audit-assistance"
 
 [[menu.main]]
 name = "Accounting & Analytics"
